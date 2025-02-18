@@ -21,7 +21,7 @@ const Artist = () => {
   const randomIndex = Math.floor(
     Math.random() * (songsArrayFromArtist.length - 1)
   );
-  const randomIdFromArtist = songsArrayFromArtist[randomIndex]._id;
+  const randomIdFromArtist = songsArrayFromArtist[randomIndex].id;
 
   // console.log(randomIdFromArtist);
   // console.log(Math.floor(Math.random() * (songsArrayFromArtist.length - 1)));

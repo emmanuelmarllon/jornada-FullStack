@@ -1,5 +1,4 @@
 // const array = [{ chave: 2 }, { chave2: 51 }, 3, "valor", "valor2"];
-
 // export const artistArray = [
 //   {
 //     id: 1,
@@ -124,7 +123,5 @@
 //     banner: "https://i.scdn.co/image/ab676186000010169415572375bac1960f9de7e5",
 //   },
 // ];
-
 import { artistArray } from "../../../api/api.js";
-
 export { artistArray };
